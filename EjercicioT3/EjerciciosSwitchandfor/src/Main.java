@@ -1,4 +1,5 @@
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +14,7 @@ public class Main {
         //Ejercicio7();
         //Ejercicio8();
         //Ejercicio9();
-        Ejercicio10();
+        //Ejercicio10();
     }
 
     public static int Ejercicio1() {
@@ -204,10 +205,10 @@ public class Main {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduce un numero: ");
         int num = entrada.nextInt();
-        int total = 1;
+        BigInteger total = BigInteger.valueOf(1);
         System.out.printf("Calculando %d!\n", num);
         for (int i = num; i >= 1; i--) {
-            total *= i;
+            total=total.multiply(BigInteger.valueOf(i)); // total es igual al total * i multiply para multiplicar
             System.out.print(i);
             //si i es mayor ponemos una x delante del numero 
             if (i > 1) {
