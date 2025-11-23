@@ -258,10 +258,5 @@ public class Main {
         System.out.println("Estudiantes aprobados: "+contador);
         System.out.println("la nota mas alta es: "+mayor);
         System.out.println("la nota mas baja es: "+menor);
-
-        /*ATENCION!
-        *
-        * FUNCIONA Y NO SE PORQUÈ, NO TOCAR!*/
-
     }
 }
