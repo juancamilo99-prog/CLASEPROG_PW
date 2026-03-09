@@ -1,0 +1,4 @@
+Esto es un ejemplo de notas para java
+Esta es una segunda linea de ejemplo
+Y esta es la tercera era linea de ejemplo
+Nueva linea de ejemplo
