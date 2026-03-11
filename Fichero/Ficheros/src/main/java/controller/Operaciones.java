@@ -209,7 +209,11 @@ public class Operaciones {
             // lo inicializamos
             objectOutputStream = new ObjectOutputStream(new FileOutputStream(file));// ->convertimos el fichero en modo salimos que vamos a usar y le damos de objeto saliente
             //objectOutputStream.writeInt(76);
-            objectOutputStream.writeObject(new Usuario("juan", "montero", "123424"));
+            ArrayList<Usuario> lista = new ArrayList<>();
+            lista.add(new Usuario("Usuario1", "Apellido1", "123A"));
+            lista.add(new Usuario("Usuario2", "Apellido2", "123A"));
+            lista.add(new Usuario("Usuario3", "Apellido3", "123A"));
+            objectOutputStream.writeObject(lista);
         } catch (IOException e) {
             System.err.println("Error en la escritura del fichero");
         }finally {
@@ -220,6 +224,23 @@ public class Operaciones {
             }
         }
 
+    }
+
+    public void lecturaObjeto(String path){
+        File file = new File(path);
+        ObjectInputStream objectInputStream = null; //-> modo lectura de objetos
+        //el objeto necesita un fichero entrante que a su vez necesita un file o un path
+        try {
+            objectInputStream = new ObjectInputStream(new FileInputStream(file));
+            List<Usuario> lista = (List<Usuario>) objectInputStream.readObject();
+            lista.forEach(Usuario::mostrarDatos);
+        } catch (IOException e) {
+            System.out.println("Fichero no encontrado");
+        } catch (ClassNotFoundException e) {
+            System.out.println("Clase no encontrada para la traduccion");
+        } catch (ClassCastException e) {
+            System.out.println("Tipos incompatibles");
+        }
     }
 }
 
