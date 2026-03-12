@@ -15,3 +15,34 @@ El objetivo de este repositorio es documentar mi aprendizaje, practicar diferent
     🎯 Objetivo
     👩‍💻 Autora
 -----
+
+📚 Contenido
+
+En este repositorio se incluyen diferentes ejercicios y prácticas sobre:
+
+    ✔️ Lógica de programación
+    ✔️ Condicionales (if, switch)
+    ✔️ Bucles (for, while, do-while)
+    ✔️ Arrays y matrices
+    ✔️ Métodos
+    ✔️ Programación orientada a objetos (POO)
+    ✔️ Manejo de excepciones
+    ✔️ Lectura y escritura de archivos
+    ✔️ Consumo de APIs
+    ✔️ Prácticas completas realizadas en clase
+
+-----
+🛠 Tecnologías utilizadas
+
+- ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+
+
+
+- ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+
+-----
+:raising_hand: Autor 
+
+Juan Camilo
+
+Estudiante interesada en programación, tecnología y aprendizaje continuo.
