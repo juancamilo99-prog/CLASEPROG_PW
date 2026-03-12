@@ -13,7 +13,7 @@ El objetivo de este repositorio es documentar mi aprendizaje, practicar diferent
     🛠 Tecnologías
     📂 Estructura del proyecto
     🎯 Objetivo
-    :raising_hand: Autor
+    🙋 Autor
 -----
 
 📚 Contenido
